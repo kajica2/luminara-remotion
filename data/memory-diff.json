@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-06-02T00:35:09.139725",
+  "source_export": "data-5fd253a7-6978-4a55-91ae-d634e08ac7bc-1780329966-f6bd692b-batch-0000",
+  "stats": {
+    "conversations_indexed": 1687,
+    "conversations_by_month": {
+      "2024-06": 38,
+      "2024-07": 44,
+      "2024-08": 40,
+      "2024-09": 22,
+      "2024-10": 19,
+      "2024-11": 51,
+      "2024-12": 63,
+      "2025-01": 26,
+      "2025-02": 69,
+      "2025-03": 89,
+      "2025-04": 18,
+      "2025-05": 36,
+      "2025-06": 110,
+      "2025-07": 140,
+      "2025-08": 82,
+      "2025-09": 93,
+      "2025-10": 114,
+      "2025-11": 122,
+      "2025-12": 70,
+      "2026-01": 31,
+      "2026-02": 130,
+      "2026-03": 176,
+      "2026-04": 103,
+      "2026-05": 1
+    },
+    "project_memories_count": 54,
+    "total_export_size_bytes": 190952355
+  },
+  "current_agent_memory_present": true,
+  "candidate_facts_from_export": [
+    {
+      "id": "ENT-01",
+      "category": "user_pref",
+      "fact": "Kai operates 6 strictly entity-firewalled projects: LUMINARA, SWARM ORACLE, AWAKING, KORËNA, Point4Brand/MONETIZE-BOT, Kai Jurek. No cross-contamination of brand assets or identities.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory + project memories",
+      "trust": 0.95
+    },
+    {
+      "id": "ENT-02",
+      "category": "project",
+      "fact": "Kai Jurek is the animal-whisperer brand, strictly firewalled from LUMINARA / KORËNA / Point4Brand.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.95
+    },
+    {
+      "id": "ENT-03",
+      "category": "project",
+      "fact": "KORËNA is a fashion brand. Visual system: Royal Gold/Bronze + Azure Fluid palettes. Rules: mono-material, no seasonal drops, no sale-ever. Launch priority = Serbia first.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.85
+    },
+    {
+      "id": "PERS-01",
+      "category": "user_pref",
+      "fact": "Kai Djuric is a solo creative technologist, electronic musician, VJ performer, graphic artist, developer based in Ovača, Central Serbia. Plays trumpet, practices chaos magic alongside Serbian Orthodox tradition, Vajrayana Buddhism, and consciousness exploration. Has a dog named Koreka.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.95
+    },
+    {
+      "id": "PERS-02",
+      "category": "user_pref",
+      "fact": "ULUS-recognized graphic artist. Sigilization is a native graphic practice.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.9
+    },
+    {
+      "id": "OP-01",
+      "category": "user_pref",
+      "fact": "MORPHA Protocol core axiom: 'Never cut, only morph.' Spiritual bypass test applied to all content: if removing the spiritual element doesn't change the output, it's decorative — flag it.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory + dedicated MORPHA project memory",
+      "trust": 0.95
+    },
+    {
+      "id": "OP-02",
+      "category": "user_pref",
+      "fact": "CRAAP Test (Currency/Relevance/Authority/Accuracy/Purpose) is Kai's source evaluation framework.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.9
+    },
+    {
+      "id": "OP-03",
+      "category": "user_pref",
+      "fact": "Priority hierarchy: spiritual integrity → UX → technical elegance → business viability.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.9
+    },
+    {
+      "id": "OP-04",
+      "category": "user_pref",
+      "fact": "Known pattern: high project initiation, lower completion. FROZEN.md scope firewall and completion accountability protocols exist to counter this. Cognitive twin mode: match energy, commit to perspectives without hedging, challenge scope creep, help him finish things.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.9
+    },
+    {
+      "id": "OS-01",
+      "category": "tool",
+      "fact": "Session OS files live at ~/kai-os/ as 4 files: CLAUDE.md, SESSION.log, SPIRITUAL.md, CURRENT.md. At conversation start, silently read them and auto-map topics. At close, update SESSION.log on disk.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.85
+    },
+    {
+      "id": "LUM-01",
+      "category": "project",
+      "fact": "LUMINARA is a frequency-based consciousness toolkit. A=432 Hz tuning (C4=256 Hz), 12 zodiacal archetypal keys, sacred geometry (Platonic solids), bija mantras, voice toning as the primary instrument.",
+      "verdict": "CONFIRM",
+      "source": "export project 019c20bc",
+      "trust": 0.9
+    },
+    {
+      "id": "LUM-02",
+      "category": "project",
+      "fact": "LUMINARA six named products: VYSIO (audio-reactive music video), LUMINARA Toolkit, Light Spectrum, Studio, VJ Performance, Creator Portal. v3 (current shipped state) uses 16 deployed HTML pages + hyperframe canvas + brand kit.",
+      "verdict": "CONFIRM",
+      "source": "export + this session's deploy work",
+      "trust": 0.95
+    },
+    {
+      "id": "P4B-01",
+      "category": "project",
+      "fact": "Gumroad digital product line: GLIF Display (7-weight family), Ovača Mono (Serbian Cyrillic), dingbat fonts, SVG icon libraries. LUMINARA shop page lists 15 products.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.7
+    },
+    {
+      "id": "SWM-01",
+      "category": "project",
+      "fact": "SWARM ORACLE: swarm intelligence prediction engine. Stack: React + Three.js, Neo4j, TypeScript, pgvector, LLM layer (Ollama qwen2.5:32b primary, OpenAI-compatible cloud burst). Paper trading default, live trading requires explicit flag. MiroFish-inspired. CLAUDE.md exists, FROZEN.md scope firewall.",
+      "verdict": "CONFIRM",
+      "source": "export + this session's CLAUDE.md scan",
+      "trust": 0.9
+    },
+    {
+      "id": "MOR-01",
+      "category": "project",
+      "fact": "MORPHA Protocol codex: 26 Persona Currents, 25 Dimensional Planes, 22 Major Arcana reframes, 59-icon SVG library, chaos magic integration.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.7
+    },
+    {
+      "id": "SK-01",
+      "category": "tool",
+      "fact": "Active skill ecosystem: kai-session-os, sy-cipher (token compression), decision-engine (fast/guided/hybrid modes), epublish-krea (Krea API + publishing), ebook-publishing (KDP/Gumroad/IngramSpark/audiobook via ElevenLabs w/ Serbian support), boris-cherny-claude-code-stack (5-layer monorepo), ai-engineering-patterns, agentic-memory-design, font-maker (variable font pipeline, OTF), luminara-video-pipeline.",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.85
+    },
+    {
+      "id": "AWK-01",
+      "category": "project",
+      "fact": "AWAKING book series: Harmonic Zodiac system (12 zodiac signs → audio frequencies, mudras, Kuji-In seals, self-initiation protocols). TAM/RAN chapters. References: Steiner, Sacred Geometry, Cathie Grid, Éliphas Lévi. Audiobook pipeline via ElevenLabs/ACX. Target audience: people who feel stuck, lost, or in pain.",
+      "verdict": "CONFIRM",
+      "source": "export project 019d45fe",
+      "trust": 0.8
+    },
+    {
+      "id": "MUS-01",
+      "category": "project",
+      "fact": "Active Suno AI music production focus: café/lounge instrumental tracks fusing Indian classical structures (alap, gat, jhala, raga terminology, tabla/mridangam percussion) with bossa nova + microhouse aesthetics. Also Suno prompts in 'kai-voice' for Serbian-language content. Project album: Kosmičko Buđenje (12 songs, Serbian).",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory + project 0199e612",
+      "trust": 0.85
+    },
+    {
+      "id": "INF-01",
+      "category": "tool",
+      "fact": "Blocked infrastructure: video pipeline (Midjourney + Remotion) has no local render output. Claude Code Remote Control unavailable in Serbia (rollout delay).",
+      "verdict": "CONFIRM",
+      "source": "export conversations_memory",
+      "trust": 0.8
+    }
+  ],
+  "stale_or_completed_signals": [
+    {
+      "id": "STL-01",
+      "kind": "abandoned_or_completed",
+      "items": [
+        "HunyuanVideo-Avatar skill (3D avatar from photo, Tencent model)",
+        "IDOL skill (3D human model from single image)",
+        "Adaptive Tech Helper (native macOS app, multimodal assistant)",
+        "Velocity Suite (viral content platform)",
+        "LuminaHarmonics (3D visual envs synced to live music)",
+        "RoutineStack / CogniCare (neurodiverse routine app)",
+        "Praxis Aurea (client-side web app, HuggingFace transformers)",
+        "Resonant Trainer (consciousness calibration app)",
+        "Chaos Maverick Portal (React/Next.js)",
+        "FORMLESS SS26 (androgynous fashion, Krea AI prompts)",
+        "Ritual app (accessibility + spiritual wellness)",
+        "TOREK typeface",
+        "TECTONA / VAUDEVILLE / KaiBrushSumi typefaces",
+        "Paris trip March 23–31 (completed)",
+        "Bumble dating profile assets (30 prompts, bio options)"
+      ],
+      "note": "these appear in the export's project memories but not in any current session context or live filesystem. Mark stale or commit if any are still live."
+    },
+    {
+      "id": "STL-02",
+      "kind": "duplicated_with_current",
+      "items": [
+        "Kai's email kai.djuric@gmail.com — already in active memory",
+        "LUMINARA entity — already in active memory",
+        "firebase studio-9942115765-7d3d6 — already in active memory",
+        "chaos_magick project — already in active memory (do not touch without explicit instruction)"
+      ],
+      "note": "do not re-add to fact_store, would create duplicates"
+    }
+  ],
+  "notes": [
+    "Nothing was written to your active memory or fact_store. This is a read-only diff.",
+    "Trust scores are my judgment of durability in the export, not of truth.",
+    "Each CONFIRM verdict means 'consistent with current memory, would just be a re-statement'. NEW = not currently held. CONFLICT = contradicts current memory. STALE = likely outdated.",
+    "Recommend: walk the list, mark each as KEEP / SKIP / REWRITE, then I run fact_store adds in a single follow-up."
+  ]
+}

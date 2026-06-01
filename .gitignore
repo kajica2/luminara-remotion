@@ -4,3 +4,5 @@ dist/
 .DS_Store
 .vitest-cache/
 coverage/
+
+data/chat-index.jsonl
